@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="Schedule"></dbname>
+    <version value="4"></version>
+    <list>
+        <!--Schedule类对应数据库中的Schedule表，通过这句话将Schedule类添加到映射模型列表-->
+        <mapping class="com.example.a22686.timecalculation.Schedule"></mapping>
+        <mapping class="com.example.a22686.timecalculation.Sum"></mapping>
+    </list>
+</litepal>
